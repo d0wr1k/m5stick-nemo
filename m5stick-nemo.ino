@@ -10,7 +10,7 @@
 
 String buildver="2.1.3";
 #define BGCOLOR BLACK
-#define FGCOLOR GREEN
+#define FGCOLOR RED
 
 #if defined(STICK_C_PLUS)
   #include <M5StickCPlus.h>
@@ -160,9 +160,9 @@ struct QRCODE {
 
 QRCODE qrcodes[] = {
   { "Back", "" },
-  { "Rickroll", "https://youtu.be/dQw4w9WgXcQ"},
-  { "HackerTyper", "https://hackertyper.net/"},
-  { "ZomboCom", "https://html5zombo.com/"},
+  { "Alke Security LKD", "https://www.linkedin.com/company/alkesec/"},
+  { "AlkeSec Site", "https://alkesec.com/"},
+  { "Video", "https://www.youtube.com/watch?v=E5Fd-oyEvdA"},
 };
 
 bool isSwitching = true;
